@@ -181,9 +181,9 @@ let yesScale = 1;
 // Move the NO button
 function moveNoButton(){
 
-    const maxX = window.innerWidth - no.offsetWidth - 20;
+    const maxX = Math.max(0, window.innerWidth - no.offsetWidth - 20);
 
-    const maxY = window.innerHeight - no.offsetHeight - 20;
+    const maxY = Math.max(0, window.innerHeight - no.offsetHeight - 20);
 
     const randomX = Math.random() * maxX;
 
