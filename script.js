@@ -19,7 +19,7 @@ const music = document.getElementById("music");
 // =====================================
 
 const message =
-"Hey Abigail 🌷 I made this little website just for you. Happy Girlfriend's Day ❤️ I hope this puts the biggest smile on your face because you deserve all the happiness in the world.";
+"Hey my love 🌷 I made this little website just for you. Happy Girlfriend's Day ❤️ I hope this puts the biggest smile on your face.";
 
 let index = 0;
 
@@ -88,7 +88,7 @@ setInterval(()=>{
 
     heart.className="heart";
 
-    heart.innerHTML="❤";
+    heart.innerHTML="❤️";
 
     heart.style.left=Math.random()*100+"vw";
 
@@ -111,7 +111,7 @@ setInterval(()=>{
 
 const titles=[
 "Happy Girlfriend's Day ❤️",
-"For Abigail ❤️",
+"For My Love ❤️",
 "I Love You ❤️"
 ];
 
@@ -131,21 +131,6 @@ setInterval(()=>{
 
 },2500);
 
-// =====================================
-// PREVENT RIGHT CLICK (OPTIONAL)
-// =====================================
-
-// Uncomment if you want to disable right-click
-
-/*
-document.addEventListener("contextmenu",(e)=>{
-    e.preventDefault();
-});
-*/
-
-// =====================================
-// END OF PART 1
-// =====================================
 // =====================================
 // NO BUTTON + YES BUTTON
 // =====================================
@@ -286,9 +271,6 @@ setInterval(()=>{
 
 },600);
 
-// =====================================
-// END OF PART 2
-// =====================================
 // =====================================
 // HEART RAIN
 // =====================================
@@ -440,13 +422,7 @@ function finalMessage(){
 
             Thank you for choosing me.
 
-            Thank you for loving me.
-
-            Thank you for making life so much brighter.
-
             I hope we keep making sweet memories together.
-
-            I'm really happy this first month brought us closer.
 
             ❤️
 
@@ -545,7 +521,7 @@ document.addEventListener("keydown",(e)=>{
 console.log("%c❤️ Happy Girlfriend's Day ❤️",
 "color:#ff4d88;font-size:24px;font-weight:bold;");
 
-console.log("%cHey Abigail 🌷",
+console.log("%cHey my love 🌷",
 "color:#ff8fb1;font-size:18px;");
 
 console.log("%cIf you're reading this...",
